@@ -1,0 +1,482 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  ,
+  "forecast": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Wroclaw, Poland",
+		"city":"Wroclaw",
+		"state":"DS",
+		"state_name":"Poland",
+		"country":"PL",
+		"country_iso3166":"PL",
+		"zip":"00000",
+		"magic":"7",
+		"wmo":"12424",
+		"latitude":"51.11000061",
+		"longitude":"17.03000069",
+		"elevation":"110.9"
+		},
+		"observation_location": {
+		"full":"ul. Potockiego, Wroclaw, Poland JO81MD, Wrocław, ",
+		"city":"ul. Potockiego, Wroclaw, Poland JO81MD, Wrocław",
+		"state":"",
+		"country":"PL",
+		"country_iso3166":"PL",
+		"latitude":"51.107731",
+		"longitude":"17.035330",
+		"elevation":"243 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"IWROCAW46",
+		"observation_time":"Last Updated on February 23, 7:41 PM CET",
+		"observation_time_rfc822":"Fri, 23 Feb 2018 19:41:17 +0100",
+		"observation_epoch":"1519411277",
+		"local_time_rfc822":"Fri, 23 Feb 2018 19:41:54 +0100",
+		"local_epoch":"1519411314",
+		"local_tz_short":"CET",
+		"local_tz_long":"Europe/Warsaw",
+		"local_tz_offset":"+0100",
+		"weather":"Clear",
+		"temperature_string":"21.8 F (-5.7 C)",
+		"temp_f":21.8,
+		"temp_c":-5.7,
+		"relative_humidity":"70%",
+		"wind_string":"Calm",
+		"wind_dir":"NNE",
+		"wind_degrees":22,
+		"wind_mph":0.6,
+		"wind_gust_mph":"13.4",
+		"wind_kph":1.0,
+		"wind_gust_kph":"21.6",
+		"pressure_mb":"1025",
+		"pressure_in":"30.27",
+		"pressure_trend":"0",
+		"dewpoint_string":"14 F (-10 C)",
+		"dewpoint_f":14,
+		"dewpoint_c":-10,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"22 F (-6 C)",
+		"windchill_f":"22",
+		"windchill_c":"-6",
+		"feelslike_string":"22 F (-6 C)",
+		"feelslike_f":"22",
+		"feelslike_c":"-6",
+		"visibility_mi":"N/A",
+		"visibility_km":"N/A",
+		"solarradiation":"--",
+		"UV":"-1","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"-999.00 in (-25375 mm)",
+		"precip_today_in":"-999.00",
+		"precip_today_metric":"--",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"forecast_url":"http://www.wunderground.com/global/stations/12424.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=IWROCAW46",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=51.107731,17.035330",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"6:51 PM CET",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Friday",
+		"fcttext":"A few clouds. Lows overnight in the upper teens.",
+		"fcttext_metric":"Mainly clear. Low -8C.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Friday Night",
+		"fcttext":"A few passing clouds. Hard freeze expected. Low 17F. Winds NNW at 5 to 10 mph.",
+		"fcttext_metric":"A few passing clouds. Hard freeze expected. Low -8C. Winds NNW at 10 to 15 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":2,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Saturday",
+		"fcttext":"Partly cloudy skies. Very cold. High 29F. Winds NNE at 10 to 20 mph.",
+		"fcttext_metric":"Partly cloudy skies. Very cold. High -2C. Winds NNE at 15 to 30 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Saturday Night",
+		"fcttext":"Mostly clear skies. Hard freeze expected. Low around 10F. Winds NE at 10 to 15 mph.",
+		"fcttext_metric":"Mostly clear skies. Hard freeze expected. Low -12C. Winds NE at 15 to 25 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":4,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Sunday",
+		"fcttext":"Continued bitterly cold. Mainly sunny. High around 25F. Winds NE at 10 to 15 mph.",
+		"fcttext_metric":"Continued bitterly cold. Mainly sunny. High -4C. Winds NE at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Sunday Night",
+		"fcttext":"Clear skies. Hard freeze expected. Low near 10F. Winds NE at 5 to 10 mph.",
+		"fcttext_metric":"A mostly clear sky. Hard freeze expected. Low -12C. Winds NE at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":6,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Monday",
+		"fcttext":"Continued bitterly cold. Sunny, along with a few afternoon clouds. High 23F. Winds NE at 10 to 15 mph.",
+		"fcttext_metric":"Continued bitterly cold. Sunshine and some clouds. High near -5C. Winds NE at 15 to 25 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Monday Night",
+		"fcttext":"Clear to partly cloudy. Hard freeze expected. Low 9F. Winds NE at 5 to 10 mph.",
+		"fcttext_metric":"Clear to partly cloudy. Hard freeze expected. Low -13C. Winds NE at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1519408800",
+	"pretty":"7:00 PM CET on February 23, 2018",
+	"day":23,
+	"month":2,
+	"year":2018,
+	"yday":53,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Fri",
+	"weekday":"Friday",
+	"ampm":"PM",
+	"tz_short":"CET",
+	"tz_long":"Europe/Warsaw"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"34",
+		"celsius":"1"
+		},
+		"low": {
+		"fahrenheit":"17",
+		"celsius":"-8"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": null,
+		"mm": null
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": null,
+		"cm": null
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 9,
+		"kph": 14,
+		"dir": "",
+		"degrees": 0
+		},
+		"avewind": {
+		"mph": 2,
+		"kph": 2,
+		"dir": "NNE",
+		"degrees": 21
+		},
+		"avehumidity": 64,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1519495200",
+	"pretty":"7:00 PM CET on February 24, 2018",
+	"day":24,
+	"month":2,
+	"year":2018,
+	"yday":54,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Sat",
+	"weekday":"Saturday",
+	"ampm":"PM",
+	"tz_short":"CET",
+	"tz_long":"Europe/Warsaw"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"29",
+		"celsius":"-2"
+		},
+		"low": {
+		"fahrenheit":"10",
+		"celsius":"-12"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "NNE",
+		"degrees": 13
+		},
+		"avewind": {
+		"mph": 16,
+		"kph": 26,
+		"dir": "NNE",
+		"degrees": 13
+		},
+		"avehumidity": 53,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1519581600",
+	"pretty":"7:00 PM CET on February 25, 2018",
+	"day":25,
+	"month":2,
+	"year":2018,
+	"yday":55,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"CET",
+	"tz_long":"Europe/Warsaw"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"25",
+		"celsius":"-4"
+		},
+		"low": {
+		"fahrenheit":"10",
+		"celsius":"-12"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "NE",
+		"degrees": 43
+		},
+		"avewind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "NE",
+		"degrees": 43
+		},
+		"avehumidity": 48,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1519668000",
+	"pretty":"7:00 PM CET on February 26, 2018",
+	"day":26,
+	"month":2,
+	"year":2018,
+	"yday":56,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"CET",
+	"tz_long":"Europe/Warsaw"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"23",
+		"celsius":"-5"
+		},
+		"low": {
+		"fahrenheit":"9",
+		"celsius":"-13"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "NE",
+		"degrees": 48
+		},
+		"avewind": {
+		"mph": 11,
+		"kph": 18,
+		"dir": "NE",
+		"degrees": 48
+		},
+		"avehumidity": 47,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}
