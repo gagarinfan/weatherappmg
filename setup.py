@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='weatherappmg',
     version='1.001',
-    packages=['Classes', 'Main'],
+    packages=['Class', 'Main'],
     url='',
     license='',
     author='Michał Gębka',

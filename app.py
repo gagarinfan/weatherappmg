@@ -2,8 +2,8 @@ import datetime
 
 from apscheduler.schedulers.blocking import BlockingScheduler
 
-from Classes.Forecast import Forecast
-from Classes.SendMail import SendMail
+from Class.Forecast import Forecast
+from Class.SendMail import SendMail
 
 sched = BlockingScheduler()
 with open("token.txt") as f:
